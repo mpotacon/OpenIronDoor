@@ -1,0 +1,9 @@
+name: ironopen
+main: com.github.mpotacon.ironopen.ironopen
+version: 0.1
+author: mpotacon
+description: Open iron-door on right click
+commands:
+    open:
+        description: Opens iron door
+        usage: /<command>
