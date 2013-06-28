@@ -34,7 +34,6 @@ public final class ironopen extends JavaPlugin {
         pm.registerEvents(this.il, this);
 	
 		getCommand("open").setExecutor(new irondoorCommands());
-		getCommand("chest").setExecutor(new ChestTest());
 	}
 	
 	private void firstRun() throws Exception {
